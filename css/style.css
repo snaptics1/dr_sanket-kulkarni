@@ -275,8 +275,17 @@ button.accordion-button.collapsed {
     height: 100%;
     border-radius: 10px;
 }
-
+.InterventionalRadiologist{
+    font-size: 26px;
+}
 @media screen and (max-width: 767px) {
+    a.btn.btn-outline-light.rounded-pill.py-md-3.px-md-5.mx-2 {
+        border: 2px solid #000;
+        color: #000;
+    }
+    .InterventionalRadiologist{
+        font-size: 18px;
+    }
     .missionVisionCardsParent .row,.doctorSpecialisations .row {
         gap: 15px;
     }
@@ -292,5 +301,13 @@ button.accordion-button.collapsed {
     .bg-white.rounded.p-5.m-5.mb-0 {
         padding: 15px !important;
         margin: 0 !important;
+    }
+    .col-md-6.text-center.text-md-end {
+        margin: 0;
+    }
+}
+@media screen and (max-width:440px){
+    .MainHeading-Home{
+        font-size: 22px;
     }
 }
