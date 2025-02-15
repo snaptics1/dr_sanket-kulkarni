@@ -98,7 +98,7 @@
 
 .hero-header {
     /* background: url(https://getwallpapers.com/wallpaper/full/5/4/b/1520326-beautiful-medical-wallpaper-backgrounds-1920x1080.jpg) top right no-repeat; */
-    background: url('/img/banner.jpg') top right no-repeat;
+    
     background-size: cover;
 }
 .service-item {
