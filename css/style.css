@@ -72,6 +72,7 @@
 .whyChooseText{
     text-align: right;
 }
+
 @media screen and (max-width:992px){
     .whyChooseText{
         text-align: center;
@@ -319,4 +320,10 @@ button.accordion-button.collapsed {
     .MainHeading-Home{
         font-size: 22px;
     }
+}
+
+/* services cards redirection */
+
+.service-item a.btn {
+    display: none;
 }
