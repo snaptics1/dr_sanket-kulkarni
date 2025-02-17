@@ -69,7 +69,14 @@
 .navbar-light .navbar-nav .nav-link.active {
     color: var(--primary);
 }
-
+.whyChooseText{
+    text-align: right;
+}
+@media screen and (max-width:992px){
+    .whyChooseText{
+        text-align: center;
+    }
+}
 @media (min-width: 992px) {
     .navbar-light .navbar-nav .nav-link::before {
         position: absolute;
